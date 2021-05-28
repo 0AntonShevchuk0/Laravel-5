@@ -1,0 +1,97 @@
+body {
+  background: #EEDDCC;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 5vw;
+  background: #663322;
+  margin: 0 25% 0 25%;
+  border-radius: 0 0 10vw 10vw;
+}
+.header .header-title {
+  text-align: center;
+  color: #EEDDCC;
+  font-weight: 600;
+  font-size: 2vw;
+}
+.footer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 5vw;
+  background: #663322;
+  margin: 0 25% 0 25%;
+  border-radius: 10vw 10vw 0 0;
+}
+.footer .footer-title {
+  text-align: center;
+  color: #EEDDCC;
+  font-weight: 600;
+  font-size: 2vw;
+}
+#home_form {
+  display: flex;
+  flex-direction: column;
+  margin: 3vw 15vw 5vw 15vw;
+}
+#home_form .field {
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+}
+#home_form .field .field-label {
+  display: block;
+  height: 3vw;
+  text-align: right;
+  width: 30vw;
+  font-size: 2.5vw;
+}
+#home_form .field .text-field {
+  margin-left: 3vw;
+  height: 3vw;
+  width: 30vw;
+  font-size: 2vw;
+}
+#home_form .large-field {
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+}
+#home_form .large-field .field-label {
+  display: block;
+  height: 3vw;
+  text-align: right;
+  width: 30vw;
+  font-size: 2.5vw;
+}
+#home_form .large-field .text-area {
+  margin-left: 3vw;
+  height: 12vw;
+  width: 30vw;
+  font-size: 2vw;
+}
+#home_form .action {
+  display: flex;
+  justify-content: center;
+}
+#home_form .action .button {
+  margin-top: 3vw;
+  border: none;
+  border-radius: 5vw 5vw 5vw 5vw;
+  font-size: 2.5vw;
+  font-weight: 600;
+  height: 4vw;
+  width: 20vw;
+  background: #663322;
+  color: #EEDDCC;
+}
+/*# sourceMappingURL=app.css.map */
